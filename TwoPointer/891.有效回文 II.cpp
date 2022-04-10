@@ -9,8 +9,8 @@ public:
     {
 	    while ( left < right && s[left] == s[right] )
 	    {
-		   left++;
-	       right--; 
+			left++;
+	    	right--; 
 	    }
 
 	    pair<int, int> strPair = make_pair(left, right);
